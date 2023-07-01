@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #121111;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: 35%;
+            height:93vh;
+            width: 30vw;
+            background: white;
+            padding: 15px;
+            align-content: center;
+            border-radius: 2px;
+        }
+        input{
+            width: 28vw;
+            height: 2vw;
+            border-radius: 5px;
+            align-content: center;
+        }
+        select{
+            width:28vw;
+            border-radius: 5px;
+            height: 2vw;
+        }
+        label{
+            font-weight: bold;
+            padding-bottom: 15px;
+            position: relative;
+            top:8px
+        }
+        h1{
+            font-weight: bolder;
+            text-align: center;
+        }
+        button{
+            padding: 10px;
+            color: azure;
+            background: #000;
+            position: relative;
+            top:25px;
+            align-content: center;
+            width: 27vw;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Sign up</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="select">select batch</label>
+            <select id="select" placeholder="select batch">
+                <option>sigma batch</option>
+                <option>sigma batch2.0</option>
+                <option>Alpha batch</option>
+            </select>
+            <label for="mail">Email </label>
+            <input type="email" id="mail">
+            <label for="password">password </label>
+            <input type="password" id="password">
+            <button>Sign up</button>
+    </form>
+</body>
+</html>

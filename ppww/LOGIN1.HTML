@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            position:absolute;
+            top: 30%;
+            left:37%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background: white;
+            padding:5%;
+            color: gray;
+            border-radius: 10px;
+            
+        }
+        input{
+            width: 15vw;
+            border:none;
+            border-bottom: 2px solid rgba(162, 155, 155, 0.577);
+            padding-top: 10px;
+            
+        }
+        label{
+            padding-top: 10px;
+        }
+        h1{
+            position: absolute;
+            top: 5px;
+            left: 150px;
+            color: rgb(16, 15, 15);
+        }
+        button{
+            position: relative;
+            top: 40px;
+            padding: 5px;
+            background: rgb(42, 42, 245);
+            color: white;
+            border:none;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Login</h1>
+        <label for="user">Username</label>
+        <input type="text" id="user">
+        <label for="password">password</label>
+        <input type="password" id="user">
+        <button>Login</button>
+    </form>
+</body>
+</html>
